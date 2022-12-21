@@ -7238,3 +7238,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 996.846745 seconds.
+  path: Assets/Materials/trap.mat
+  artifactKey: Guid(3fd8fa5daa260d74c92ced95a0576c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/trap.mat using Guid(3fd8fa5daa260d74c92ced95a0576c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2455ef149e021109fa2d6cb5184d6d2d') in 0.074320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.847724 seconds.
+  path: Assets/Materials/goal.mat
+  artifactKey: Guid(cc21ec4f928ab0546a1da6e82ff7f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/goal.mat using Guid(cc21ec4f928ab0546a1da6e82ff7f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4520729f47be1fd768ec261b28d7e5c2') in 0.015888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.106225 seconds.
+  path: Assets/Materials/goal.mat
+  artifactKey: Guid(cc21ec4f928ab0546a1da6e82ff7f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/goal.mat using Guid(cc21ec4f928ab0546a1da6e82ff7f1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96e291a43b4b96ceeece951bf03772f') in 0.016055 seconds 
