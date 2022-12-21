@@ -7,13 +7,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
 	public Rigidbody rb;
 	private int score = 0;
-
-	void OnTriggerEnter(Collider other)
-	{
-		score += 1;
-		Debug.Log("Score: " + score);
-		Destroy(other.gameObject);
-	}
+	public int health = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -43,4 +37,20 @@ public class PlayerController : MonoBehaviour
 			rb.AddForce(0, 0, -speed * Time.deltaTime);
 		}
     }
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.gameObject.tag == "Trap")
+		{
+			health -= 1;
+			Debug.Log("Health: " + health);
+		}
+
+		if (other.gameObject.tag == "Pickup")
+		{
+			score += 1;
+			Debug.Log("Score: " + score);
+			Destroy(other.gameObject);
+		}
+	}
 }
