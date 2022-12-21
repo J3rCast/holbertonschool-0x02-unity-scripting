@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,12 +10,15 @@ public class PlayerController : MonoBehaviour
 	private int score = 0;
 	public int health = 5;
 
-    // Start is called before the first frame update
-    void Start()
+    void Update()
     {
+		if (health == 0)
+		{
+			Debug.Log("Game Over!");
+			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		}
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
 		if (Input.GetKey("d"))
