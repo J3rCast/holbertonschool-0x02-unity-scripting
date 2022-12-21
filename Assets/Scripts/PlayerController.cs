@@ -52,5 +52,10 @@ public class PlayerController : MonoBehaviour
 			Debug.Log("Score: " + score);
 			Destroy(other.gameObject);
 		}
+
+		if (other.gameObject.tag == "Goal")
+		{
+			Debug.Log("You win!");
+		}
 	}
 }
