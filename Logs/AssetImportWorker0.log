@@ -182,3 +182,9 @@ Received Import Request.
   path: Assets/Materials/player.mat
   artifactKey: Guid(e762bb2b5840f1d46b79f6dfa966ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/player.mat using Guid(e762bb2b5840f1d46b79f6dfa966ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2916535e0ce4d0d763318d245247b3') in 0.020037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 208.507109 seconds.
+  path: Assets/Materials/player.mat
+  artifactKey: Guid(e762bb2b5840f1d46b79f6dfa966ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/player.mat using Guid(e762bb2b5840f1d46b79f6dfa966ddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eba7a14aeb73e762d15523a588e50d5') in 0.014595 seconds 
