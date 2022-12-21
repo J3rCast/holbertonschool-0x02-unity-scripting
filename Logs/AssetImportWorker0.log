@@ -5244,3 +5244,9 @@ Received Import Request.
   path: Assets/Prefabs/Coin.prefab
   artifactKey: Guid(2eb5439f44f3ddf40a9b1456ac7e7ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Coin.prefab using Guid(2eb5439f44f3ddf40a9b1456ac7e7ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b3d245389dc22a890439d059573e20') in 0.084891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.569320 seconds.
+  path: Assets/Materials/coin.mat
+  artifactKey: Guid(aac3e8be38ab96c45818e98ac35e8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/coin.mat using Guid(aac3e8be38ab96c45818e98ac35e8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe5ffa822609485e0fba0af50e6ac1b') in 0.027288 seconds 
