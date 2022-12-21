@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+	public Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
@@ -16,30 +17,22 @@ public class PlayerController : MonoBehaviour
     {
 		if (Input.GetKey("d"))
 		{
-			Vector3 position = this.transform.position;
-			position.x += this.speed;
-			this.transform.position = position;
+			rb.AddForce(speed * Time.deltaTime, 0, 0);
 		}
 
 		if (Input.GetKey("w"))
 		{
-			Vector3 position = this.transform.position;
-			position.z += this.speed;
-			this.transform.position = position;
+			rb.AddForce(0, 0, speed * Time.deltaTime);
 		}
 
 		if (Input.GetKey("a"))
 		{
-			Vector3 position = this.transform.position;
-			position.x -= this.speed;
-			this.transform.position = position;
+			rb.AddForce(-speed * Time.deltaTime, 0, 0);
 		}
 
 		if (Input.GetKey("s"))
 		{
-			Vector3 position = this.transform.position;
-			position.z -= this.speed;
-			this.transform.position = position;
+			rb.AddForce(0, 0, -speed * Time.deltaTime);
 		}
     }
 }
