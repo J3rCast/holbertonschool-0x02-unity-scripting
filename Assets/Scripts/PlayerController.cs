@@ -6,6 +6,14 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
 	public Rigidbody rb;
+	private int score = 0;
+
+	void OnTriggerEnter(Collider other)
+	{
+		score += 1;
+		Debug.Log("Score: " + score);
+		Destroy(other.gameObject);
+	}
 
     // Start is called before the first frame update
     void Start()
